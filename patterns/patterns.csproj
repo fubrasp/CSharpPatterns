@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Creational\AbstractFactory\" />
+    <Folder Include="Creational\" />
+    <Folder Include="Creational\Factory\" />
+    <Folder Include="Creational\Singleton\" />
+    <Folder Include="Creational\Builder\" />
+    <Folder Include="Creational\Builder\FoodItems\" />
+    <Folder Include="Creational\Builder\ConcreteClasses\" />
+    <Folder Include="Creational\Builder\AbstractClasses\" />
+    <Folder Include="Creational\Builder\ConcreteClasses\drinks\" />
+    <Folder Include="Creational\Builder\ConcreteClasses\containers\" />
+    <Folder Include="Creational\Builder\ConcreteClasses\products\" />
+    <Folder Include="Creational\Prototype\" />
+    <Folder Include="Creational\Prototype\shapes\" />
+    <Folder Include="Structural\" />
+    <Folder Include="Structural\Adapter\" />
+    <Folder Include="Structural\Adapter\adaptator\" />
+    <Folder Include="Structural\Adapter\players\" />
+    <Folder Include="Structural\Adapter\playersInterface\" />
+    <Folder Include="Structural\Adapter\adaptorManager\" />
+    <Folder Include="Structural\Bridge\" />
+    <Folder Include="Structural\Bridge\shapes\" />
+    <Folder Include="Structural\Bridge\concreteClasses\" />
+    <Folder Include="Structural\Bridge\abstractClasses\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="PatternRunner.cs" />
+    <Compile Remove="Burger.cs" />
+    <Compile Remove="AbstractFactory\shapes\ShapeFactory.cs" />
+  </ItemGroup>
+</Project>

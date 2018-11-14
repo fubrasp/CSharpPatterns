@@ -7,6 +7,7 @@ using patterns.Structural.Adapter;
 using patterns.Structural.Bridge;
 using patterns.Structural.Composite;
 using patterns.Structural.Decorator;
+using patterns.Structural.Facade;
 using patterns.Structural.Filter;
 
 namespace patterns
@@ -51,8 +52,16 @@ namespace patterns
             //CompositePatternDemo.Start();
             //Console.WriteLine("");
 
-            Console.WriteLine("Decorator");
-            DecoratorPatternDemo.Start();
+            //Console.WriteLine("Decorator");
+            //DecoratorPatternDemo.Start();
+            //Console.WriteLine("");
+
+            //Console.WriteLine("Facade");
+            //FacadePatternDemo.Start();
+            //Console.WriteLine("");
+
+            Console.WriteLine("Facade");
+            FacadePatternDemo.Start();
             Console.WriteLine("");
 
         }

@@ -48,6 +48,7 @@
     <Folder Include="Behavioral\Command\request\" />
     <Folder Include="Behavioral\Command\invoker\" />
     <Folder Include="Behavioral\Mediator\" />
+    <Folder Include="Behavioral\Memento\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="PatternRunner.cs" />

@@ -5,6 +5,7 @@ using patterns.Prototype;
 using patterns.Singleton;
 using patterns.Structural.Adapter;
 using patterns.Structural.Bridge;
+using patterns.Structural.Filter;
 
 namespace patterns
 {
@@ -36,8 +37,12 @@ namespace patterns
             //AdapterPatternDemo.Start();
             //Console.WriteLine("");
 
-            Console.WriteLine("Bridge");
-            BridgePatternDemo.Start();
+            //Console.WriteLine("Bridge");
+            //BridgePatternDemo.Start();
+            //Console.WriteLine("");
+
+            Console.WriteLine("Criteria");
+            CriteriaPatternDemo.Start();
             Console.WriteLine("");
         }
     }

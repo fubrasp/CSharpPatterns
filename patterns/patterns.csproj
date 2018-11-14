@@ -29,10 +29,16 @@
     <Folder Include="Structural\Bridge\shapes\" />
     <Folder Include="Structural\Bridge\concreteClasses\" />
     <Folder Include="Structural\Bridge\abstractClasses\" />
+    <Folder Include="Structural\Filter\" />
+    <Folder Include="Structural\Filter\model\" />
+    <Folder Include="Structural\Filter\criterias\" />
+    <Folder Include="Structural\Filter\extensions\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="PatternRunner.cs" />
     <Compile Remove="Burger.cs" />
     <Compile Remove="AbstractFactory\shapes\ShapeFactory.cs" />
+    <Compile Remove="Structural\Filter.cs" />
+    <Compile Remove="Structural\Filter\model.cs" />
   </ItemGroup>
 </Project>

@@ -3,6 +3,7 @@ using patterns.Behavioral.ChainOfResponsability;
 using patterns.Behavioral.Command;
 using patterns.Behavioral.Mediator;
 using patterns.Behavioral.Memento;
+using patterns.Behavioral.Observer;
 using patterns.Creational.Builder;
 using patterns.Factory;
 using patterns.Prototype;
@@ -86,8 +87,12 @@ namespace patterns
             //MediatorPatternDemo.Start();
             //Console.WriteLine("");
 
-            Console.WriteLine("Memento");
-            MementoPatternDemo.Start();
+            //Console.WriteLine("Memento");
+            //MementoPatternDemo.Start();
+            //Console.WriteLine("");
+
+            Console.WriteLine("Observer");
+            ObserverPatternDemo.Start();
             Console.WriteLine("");
 
         }

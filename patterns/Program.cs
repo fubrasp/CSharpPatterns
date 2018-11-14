@@ -10,6 +10,7 @@ using patterns.Structural.Decorator;
 using patterns.Structural.Facade;
 using patterns.Structural.Filter;
 using patterns.Structural.Flyweight;
+using patterns.Structural.Proxy;
 
 namespace patterns
 {
@@ -61,8 +62,12 @@ namespace patterns
             //FacadePatternDemo.Start();
             //Console.WriteLine("");
 
-            Console.WriteLine("Flyweight");
-            FlyweightPatternDemo.Start();
+            //Console.WriteLine("Flyweight");
+            //FlyweightPatternDemo.Start();
+            //Console.WriteLine("");
+
+            Console.WriteLine("Proxy");
+            ProxyPatternDemo.Start();
             Console.WriteLine("");
         }
     }

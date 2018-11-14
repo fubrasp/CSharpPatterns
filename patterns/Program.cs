@@ -1,4 +1,7 @@
 ﻿using System;
+using patterns.Behavioral.ChainOfResponsability;
+using patterns.Behavioral.Command;
+using patterns.Behavioral.Mediator;
 using patterns.Creational.Builder;
 using patterns.Factory;
 using patterns.Prototype;
@@ -66,9 +69,22 @@ namespace patterns
             //FlyweightPatternDemo.Start();
             //Console.WriteLine("");
 
-            Console.WriteLine("Proxy");
-            ProxyPatternDemo.Start();
+            //Console.WriteLine("Proxy");
+            //ProxyPatternDemo.Start();
+            //Console.WriteLine("");
+
+            //Console.WriteLine("ChainOfResponsability");
+            //ChainPatternDemo.Start();
+            //Console.WriteLine("");
+
+            //Console.WriteLine("Command");
+            //CommandPatternDemo.Start();
+            //Console.WriteLine("");
+
+            Console.WriteLine("Command");
+            MediatorPatternDemo.Start();
             Console.WriteLine("");
+
         }
     }
 }

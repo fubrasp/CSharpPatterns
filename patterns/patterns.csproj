@@ -43,6 +43,11 @@
     <Folder Include="Structural\Proxy\" />
     <Folder Include="Behavioral\" />
     <Folder Include="Behavioral\ChainOfResponsability\" />
+    <Folder Include="Behavioral\Command\" />
+    <Folder Include="Behavioral\Command\command\" />
+    <Folder Include="Behavioral\Command\request\" />
+    <Folder Include="Behavioral\Command\invoker\" />
+    <Folder Include="Behavioral\Mediator\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="PatternRunner.cs" />
@@ -50,5 +55,6 @@
     <Compile Remove="AbstractFactory\shapes\ShapeFactory.cs" />
     <Compile Remove="Structural\Filter.cs" />
     <Compile Remove="Structural\Filter\model.cs" />
+    <Compile Remove="Behavioral\IEnumerable\Container.cs" />
   </ItemGroup>
 </Project>

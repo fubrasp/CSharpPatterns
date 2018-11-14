@@ -5,6 +5,8 @@ using patterns.Prototype;
 using patterns.Singleton;
 using patterns.Structural.Adapter;
 using patterns.Structural.Bridge;
+using patterns.Structural.Composite;
+using patterns.Structural.Decorator;
 using patterns.Structural.Filter;
 
 namespace patterns
@@ -41,9 +43,18 @@ namespace patterns
             //BridgePatternDemo.Start();
             //Console.WriteLine("");
 
-            Console.WriteLine("Criteria");
-            CriteriaPatternDemo.Start();
+            //Console.WriteLine("Criteria");
+            //CriteriaPatternDemo.Start();
+            //Console.WriteLine("");
+
+            //Console.WriteLine("Composite");
+            //CompositePatternDemo.Start();
+            //Console.WriteLine("");
+
+            Console.WriteLine("Decorator");
+            DecoratorPatternDemo.Start();
             Console.WriteLine("");
+
         }
     }
 }

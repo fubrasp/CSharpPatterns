@@ -33,6 +33,9 @@
     <Folder Include="Structural\Filter\model\" />
     <Folder Include="Structural\Filter\criterias\" />
     <Folder Include="Structural\Filter\extensions\" />
+    <Folder Include="Structural\Composite\" />
+    <Folder Include="Structural\Decorator\" />
+    <Folder Include="Structural\Decorator\shapes\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="PatternRunner.cs" />

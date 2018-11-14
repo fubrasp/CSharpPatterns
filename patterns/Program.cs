@@ -9,6 +9,7 @@ using patterns.Structural.Composite;
 using patterns.Structural.Decorator;
 using patterns.Structural.Facade;
 using patterns.Structural.Filter;
+using patterns.Structural.Flyweight;
 
 namespace patterns
 {
@@ -60,10 +61,9 @@ namespace patterns
             //FacadePatternDemo.Start();
             //Console.WriteLine("");
 
-            Console.WriteLine("Facade");
-            FacadePatternDemo.Start();
+            Console.WriteLine("Flyweight");
+            FlyweightPatternDemo.Start();
             Console.WriteLine("");
-
         }
     }
 }

@@ -38,6 +38,8 @@
     <Folder Include="Structural\Decorator\shapes\" />
     <Folder Include="Structural\Facade\" />
     <Folder Include="Structural\Facade\shapes\" />
+    <Folder Include="Structural\Flyweight\" />
+    <Folder Include="Structural\Flyweight\shapes\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="PatternRunner.cs" />

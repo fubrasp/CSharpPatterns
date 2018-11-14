@@ -1,9 +1,10 @@
 ﻿using System;
 namespace patterns.Behavioral.Observer
 {
-    public class ObserverPatternDemo
+    public static class ObserverPatternDemo
     {
-        public static void Start(){
+        public static void Start()
+        {
             Subject subject = new Subject();
 
             new HexaObserver(subject);
@@ -11,9 +12,9 @@ namespace patterns.Behavioral.Observer
             new BinaryObserver(subject);
 
             Console.WriteLine("First state change: 15");
-            subject.State=15;
+            subject.State = 15;
             Console.WriteLine("Second state change: 10");
-            subject.State=10;
+            subject.State = 10;
         }
     }
 }

@@ -5,9 +5,10 @@ using patterns.Behavioral.Command.request;
 
 namespace patterns.Behavioral.Command
 {
-    public class CommandPatternDemo
+    public static class CommandPatternDemo
     {
-        public static void Start(){
+        public static void Start()
+        {
             Stock abcStock = new Stock();
 
             BuyStock buyStockOrder = new BuyStock(abcStock);

@@ -3,9 +3,10 @@ using patterns.Structural.Decorator.shapes;
 
 namespace patterns.Structural.Decorator
 {
-    public class DecoratorPatternDemo
+    public static class DecoratorPatternDemo
     {
-        public static void Start(){
+        public static void Start()
+        {
             Shape circle = new Circle();
 
             Shape redCircle = new RedShapeDecorator(new Circle());

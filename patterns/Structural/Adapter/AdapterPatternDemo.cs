@@ -3,7 +3,7 @@ using patterns.Structural.Adapter.adaptorManager;
 
 namespace patterns.Structural.Adapter
 {
-    public class AdapterPatternDemo
+    public static class AdapterPatternDemo
     {
         public static void Start()
         {

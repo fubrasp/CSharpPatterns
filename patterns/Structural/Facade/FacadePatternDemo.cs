@@ -1,9 +1,10 @@
 ﻿using System;
 namespace patterns.Structural.Facade
 {
-    public class FacadePatternDemo
+    public static class FacadePatternDemo
     {
-        public static void Start(){
+        public static void Start()
+        {
             ShapeMaker shapeMaker = new ShapeMaker();
 
             shapeMaker.DrawCircle();

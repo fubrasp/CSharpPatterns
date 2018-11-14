@@ -2,11 +2,12 @@
 using patterns.Structural.Flyweight.shapes;
 namespace patterns.Structural.Flyweight
 {
-    public class FlyweightPatternDemo
+    public static class FlyweightPatternDemo
     {
         static Random rnd = new Random();
 
-        public static void Start(){
+        public static void Start()
+        {
 
             for (int i = 0; i < 20; ++i)
             {

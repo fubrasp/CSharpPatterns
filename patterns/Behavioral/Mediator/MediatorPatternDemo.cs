@@ -1,9 +1,10 @@
 ﻿using System;
 namespace patterns.Behavioral.Mediator
 {
-    public class MediatorPatternDemo
+    public static class MediatorPatternDemo
     {
-        public static void Start(){
+        public static void Start()
+        {
             User robert = new User("Robert");
             User john = new User("John");
 

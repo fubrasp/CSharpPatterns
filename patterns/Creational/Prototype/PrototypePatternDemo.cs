@@ -3,7 +3,7 @@ using patterns.Creational.Prototype;
 
 namespace patterns.Prototype
 {
-    public class PrototypePatternDemo
+    public static class PrototypePatternDemo
     {
         public static void Start()
         {

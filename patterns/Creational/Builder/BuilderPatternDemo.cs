@@ -3,9 +3,10 @@ using patterns.Creational.Builder.ConcreteClasses;
 
 namespace patterns.Creational.Builder
 {
-    public class BuilderPatternDemo
+    public static class BuilderPatternDemo
     {
-        public static void Start(){
+        public static void Start()
+        {
             MealBuilder mealBuilder = new MealBuilder();
 
             Meal vegMeal = mealBuilder.PrepareVegMeal();

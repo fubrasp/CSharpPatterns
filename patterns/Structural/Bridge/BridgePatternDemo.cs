@@ -5,7 +5,7 @@ using patterns.Structural.Bridge.shapes;
 
 namespace patterns.Structural.Bridge
 {
-    public class BridgePatternDemo
+    public static class BridgePatternDemo
     {
         public static void Start()
         {

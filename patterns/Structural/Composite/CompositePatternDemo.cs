@@ -1,9 +1,10 @@
 ﻿using System;
 namespace patterns.Structural.Composite
 {
-    public class CompositePatternDemo
+    public static class CompositePatternDemo
     {
-        public static void Start(){
+        public static void Start()
+        {
             Employee CEO = new Employee("John", "CEO", 30000);
 
             Employee headSales = new Employee("Robert", "Head Sales", 20000);
@@ -27,7 +28,8 @@ namespace patterns.Structural.Composite
             PrintAllEmployeesFromCEOToSubordinates(CEO);
         }
 
-        public static void PrintAllEmployeesFromCEOToSubordinates(Employee CEO){
+        public static void PrintAllEmployeesFromCEOToSubordinates(Employee CEO)
+        {
             Console.WriteLine(CEO);
             foreach (Employee headEmployee in CEO.Subordinates)
             {

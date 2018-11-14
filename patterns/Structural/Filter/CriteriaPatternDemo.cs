@@ -6,7 +6,7 @@ using patterns.Structural.Filter.model;
 
 namespace patterns.Structural.Filter
 {
-    public class CriteriaPatternDemo
+    public static class CriteriaPatternDemo
     {
         public static void Start()
         {

@@ -50,6 +50,7 @@
     <Folder Include="Behavioral\Mediator\" />
     <Folder Include="Behavioral\Memento\" />
     <Folder Include="Behavioral\Observer\" />
+    <Folder Include="Behavioral\State\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="PatternRunner.cs" />

@@ -4,6 +4,7 @@ using patterns.Behavioral.Command;
 using patterns.Behavioral.Mediator;
 using patterns.Behavioral.Memento;
 using patterns.Behavioral.Observer;
+using patterns.Behavioral.State;
 using patterns.Creational.Builder;
 using patterns.Factory;
 using patterns.Prototype;
@@ -91,8 +92,12 @@ namespace patterns
             //MementoPatternDemo.Start();
             //Console.WriteLine("");
 
-            Console.WriteLine("Observer");
-            ObserverPatternDemo.Start();
+            //Console.WriteLine("Observer");
+            //ObserverPatternDemo.Start();
+            //Console.WriteLine("");
+
+            Console.WriteLine("StatePattern");
+            StatePatternDemo.Start();
             Console.WriteLine("");
 
         }

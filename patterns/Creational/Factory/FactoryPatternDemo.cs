@@ -3,7 +3,7 @@ using patterns.Factory;
 
 namespace patterns.Factory
 {
-    public class FactoryPatternDemo
+    public static class FactoryPatternDemo
     {
         public static void Start()
         {

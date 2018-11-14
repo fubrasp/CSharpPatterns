@@ -1,9 +1,10 @@
 ﻿using System;
 namespace patterns.Behavioral.ChainOfResponsability
 {
-    public class ChainPatternDemo
+    public static class ChainPatternDemo
     {
-        public static void Start(){
+        public static void Start()
+        {
             AbstractLogger loggerChain = GetChainOfLoggers();
 
             loggerChain.LogMessage(AbstractLogger.INFO,

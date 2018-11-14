@@ -5,7 +5,7 @@ using patterns.AbstractFactory.shapes;
 
 namespace patterns
 {
-    public class AbstractFactoryPatternDemo
+    public static class AbstractFactoryPatternDemo
     {
         public static void Start()
         {

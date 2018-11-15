@@ -61,6 +61,9 @@
     <Folder Include="Behavioral\BusinessDelegateP\" />
     <Folder Include="Behavioral\BusinessDelegateP\services\" />
     <Folder Include="Behavioral\BusinessDelegateP\entryPoint\" />
+    <Folder Include="Behavioral\DAO\" />
+    <Folder Include="Behavioral\ServiceLocator\" />
+    <Folder Include="Behavioral\ServiceLocator\services\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="PatternRunner.cs" />

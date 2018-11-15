@@ -2,10 +2,12 @@
 using patterns.Behavioral.BusinessDelegateP;
 using patterns.Behavioral.ChainOfResponsability;
 using patterns.Behavioral.Command;
+using patterns.Behavioral.DAO;
 using patterns.Behavioral.Mediator;
 using patterns.Behavioral.Memento;
 using patterns.Behavioral.MVC;
 using patterns.Behavioral.Observer;
+using patterns.Behavioral.ServiceLocator;
 using patterns.Behavioral.State;
 using patterns.Behavioral.Strategy;
 using patterns.Behavioral.Template;
@@ -121,8 +123,16 @@ namespace patterns
             //MVCPatternDemo.Start();
             //Console.WriteLine("");
 
-            Console.WriteLine("Business Delegate");
-            BusinessDelegatePatternDemo.Start();
+            //Console.WriteLine("Business Delegate");
+            //BusinessDelegatePatternDemo.Start();
+            //Console.WriteLine("");
+
+            //Console.WriteLine("DAO");
+            //DaoPatternDemo.Start();
+            //Console.WriteLine("");
+
+            Console.WriteLine("ServiceLocator");
+            ServiceLocatorPatternDemo.Start();
             Console.WriteLine("");
         }
     }

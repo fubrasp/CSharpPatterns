@@ -1,5 +1,20 @@
 ﻿<Properties StartupConfiguration="{DB7AC357-8F6F-43BD-BF7F-00EB0C7C977F}|Default">
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workbench ActiveDocument="patterns/Behavioral/ServiceLocator/ServiceLocatorPatternDemo.cs">
+    <Files>
+      <File FileName="patterns/Behavioral/DAO/StudentDaoImpl.cs" Line="14" Column="36" />
+      <File FileName="patterns/Behavioral/DAO/DaoPatternDemo.cs" Line="12" Column="29" />
+      <File FileName="patterns/Behavioral/DAO/IStudentDAO.cs" Line="6" Column="33" />
+      <File FileName="patterns/Program.cs" Line="129" Column="31" />
+      <File FileName="patterns/Behavioral/DAO/Student.cs" Line="9" Column="15" />
+      <File FileName="patterns/Behavioral/ServiceLocator/services/IService.cs" Line="8" Column="6" />
+      <File FileName="patterns/Behavioral/ServiceLocator/services/Service1.cs" Line="3" Column="1" />
+      <File FileName="patterns/Behavioral/ServiceLocator/services/Service2.cs" Line="2" Column="54" />
+      <File FileName="patterns/Behavioral/ServiceLocator/InitialContext.cs" Line="8" Column="33" />
+      <File FileName="patterns/Behavioral/ServiceLocator/Cache.cs" Line="30" Column="22" />
+      <File FileName="patterns/Behavioral/ServiceLocator/ServiceLocator.cs" Line="20" Column="12" />
+      <File FileName="patterns/Behavioral/ServiceLocator/ServiceLocatorPatternDemo.cs" Line="5" Column="6" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />

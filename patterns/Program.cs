@@ -7,6 +7,7 @@ using patterns.Behavioral.Observer;
 using patterns.Behavioral.State;
 using patterns.Behavioral.Strategy;
 using patterns.Behavioral.Template;
+using patterns.Behavioral.Visitor;
 using patterns.Creational.Builder;
 using patterns.Factory;
 using patterns.Prototype;
@@ -106,8 +107,12 @@ namespace patterns
             //StrategyPatternDemo.Start();
             //Console.WriteLine("");
 
+            //Console.WriteLine("Template");
+            //TemplatePatternDemo.Start();
+            //Console.WriteLine("");
+
             Console.WriteLine("Template");
-            TemplatePatternDemo.Start();
+            VisitorPatternDemo.Start();
             Console.WriteLine("");
         }
     }

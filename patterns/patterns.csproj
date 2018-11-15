@@ -54,6 +54,7 @@
     <Folder Include="Behavioral\Strategy\" />
     <Folder Include="Behavioral\Strategy\strategies\" />
     <Folder Include="Behavioral\Template\" />
+    <Folder Include="Behavioral\Visitor\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="PatternRunner.cs" />

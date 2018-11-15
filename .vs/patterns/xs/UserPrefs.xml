@@ -1,5 +1,5 @@
 ﻿<Properties StartupConfiguration="{DB7AC357-8F6F-43BD-BF7F-00EB0C7C977F}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="patterns/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="patterns/Behavioral/Template/Football.cs">
     <Files>
       <File FileName="patterns/Behavioral/Strategy/strategies/IStrategy.cs" Line="8" Column="2" />
       <File FileName="patterns/Behavioral/Strategy/strategies/OperationAdd.cs" Line="9" Column="1" />
@@ -7,7 +7,11 @@
       <File FileName="patterns/Behavioral/Strategy/strategies/OperationMultiply.cs" Line="9" Column="1" />
       <File FileName="patterns/Behavioral/Strategy/Context.cs" Line="12" Column="23" />
       <File FileName="patterns/Behavioral/Strategy/StrategyPatternDemo.cs" Line="4" Column="39" />
-      <File FileName="patterns/Program.cs" Line="105" Column="37" />
+      <File FileName="patterns/Program.cs" Line="109" Column="2" />
+      <File FileName="patterns/Behavioral/Template/Game.cs" Line="11" Column="15" />
+      <File FileName="patterns/Behavioral/Template/Criket.cs" Line="4" Column="24" />
+      <File FileName="patterns/Behavioral/Template/TemplatePatternDemo.cs" Line="10" Column="29" />
+      <File FileName="patterns/Behavioral/Template/Football.cs" Line="4" Column="26" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

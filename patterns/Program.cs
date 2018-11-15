@@ -3,6 +3,7 @@ using patterns.Behavioral.ChainOfResponsability;
 using patterns.Behavioral.Command;
 using patterns.Behavioral.Mediator;
 using patterns.Behavioral.Memento;
+using patterns.Behavioral.MVC;
 using patterns.Behavioral.Observer;
 using patterns.Behavioral.State;
 using patterns.Behavioral.Strategy;
@@ -111,8 +112,12 @@ namespace patterns
             //TemplatePatternDemo.Start();
             //Console.WriteLine("");
 
-            Console.WriteLine("Template");
-            VisitorPatternDemo.Start();
+            //Console.WriteLine("Visitor");
+            //VisitorPatternDemo.Start();
+            //Console.WriteLine("");
+
+            Console.WriteLine("MVC");
+            MVCPatternDemo.Start();
             Console.WriteLine("");
         }
     }

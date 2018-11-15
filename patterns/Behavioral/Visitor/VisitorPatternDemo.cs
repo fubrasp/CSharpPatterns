@@ -1,4 +1,7 @@
 ﻿using System;
+using patterns.Behavioral.Visitor.visitor;
+using patterns.Behavioral.Visitor.visited;
+
 namespace patterns.Behavioral.Visitor
 {
     public static class VisitorPatternDemo

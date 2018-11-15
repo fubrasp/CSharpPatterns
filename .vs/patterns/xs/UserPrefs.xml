@@ -1,15 +1,11 @@
 ﻿<Properties StartupConfiguration="{DB7AC357-8F6F-43BD-BF7F-00EB0C7C977F}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="patterns/Program.cs">
     <Files>
-      <File FileName="patterns/Behavioral/Visitor/IComputerPart.cs" Line="6" Column="22" />
-      <File FileName="patterns/Behavioral/Visitor/Keyboard.cs" Line="6" Column="22" />
-      <File FileName="patterns/Behavioral/Visitor/Monitor.cs" Line="6" Column="22" />
-      <File FileName="patterns/Behavioral/Visitor/Mouse.cs" Line="6" Column="22" />
-      <File FileName="patterns/Behavioral/Visitor/IComputerPartVisitor.cs" Line="8" Column="30" />
-      <File FileName="patterns/Behavioral/Visitor/Computer.cs" Line="18" Column="45" />
-      <File FileName="patterns/Behavioral/Visitor/ComputerPartDisplayVisitor.cs" Line="14" Column="10" />
-      <File FileName="patterns/Behavioral/Visitor/VisitorPatternDemo.cs" Line="13" Column="1" />
-      <File FileName="patterns/Program.cs" Line="114" Column="19" />
+      <File FileName="patterns/Behavioral/MVC/Student.cs" Line="8" Column="1" />
+      <File FileName="patterns/Behavioral/MVC/StudentView.cs" Line="13" Column="2" />
+      <File FileName="patterns/Behavioral/MVC/StudentController.cs" Line="10" Column="10" />
+      <File FileName="patterns/Behavioral/MVC/MVCPatternDemo.cs" Line="8" Column="34" />
+      <File FileName="patterns/Program.cs" Line="120" Column="35" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

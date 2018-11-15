@@ -51,6 +51,8 @@
     <Folder Include="Behavioral\Memento\" />
     <Folder Include="Behavioral\Observer\" />
     <Folder Include="Behavioral\State\" />
+    <Folder Include="Behavioral\Strategy\" />
+    <Folder Include="Behavioral\Strategy\strategies\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="PatternRunner.cs" />

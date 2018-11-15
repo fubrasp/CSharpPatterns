@@ -1,0 +1,20 @@
+﻿<Properties StartupConfiguration="{DB7AC357-8F6F-43BD-BF7F-00EB0C7C977F}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="patterns/Program.cs">
+    <Files>
+      <File FileName="patterns/Behavioral/Strategy/strategies/IStrategy.cs" Line="8" Column="2" />
+      <File FileName="patterns/Behavioral/Strategy/strategies/OperationAdd.cs" Line="9" Column="1" />
+      <File FileName="patterns/Behavioral/Strategy/strategies/OperationSubstract.cs" Line="9" Column="1" />
+      <File FileName="patterns/Behavioral/Strategy/strategies/OperationMultiply.cs" Line="9" Column="1" />
+      <File FileName="patterns/Behavioral/Strategy/Context.cs" Line="12" Column="23" />
+      <File FileName="patterns/Behavioral/Strategy/StrategyPatternDemo.cs" Line="4" Column="39" />
+      <File FileName="patterns/Program.cs" Line="105" Column="37" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.patterns PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+</Properties>

@@ -1,4 +1,5 @@
 ﻿using System;
+using patterns.Behavioral.BusinessDelegateP;
 using patterns.Behavioral.ChainOfResponsability;
 using patterns.Behavioral.Command;
 using patterns.Behavioral.Mediator;
@@ -116,8 +117,12 @@ namespace patterns
             //VisitorPatternDemo.Start();
             //Console.WriteLine("");
 
-            Console.WriteLine("MVC");
-            MVCPatternDemo.Start();
+            //Console.WriteLine("MVC");
+            //MVCPatternDemo.Start();
+            //Console.WriteLine("");
+
+            Console.WriteLine("Business Delegate");
+            BusinessDelegatePatternDemo.Start();
             Console.WriteLine("");
         }
     }
